@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a5f90095b25ed4092a1687a29e210e, type: 3}
+  m_Name: Scene2
+  m_EditorClassIdentifier: 
+  sceneEnterText: Voici la plage, apres une petite baignade, ou veux tu aller ?
+  mikiTextAfterAnswer2: 
+  mikiTextAfterAnswer3: Merci, cela me gene venant d'une personne aussi genial que
+    toi.
+  answer1: A la Place
+  answer2: Vers la Montagne
+  answer3: La complimenter
+  mikiSpritPath: Miki/Miki_Swimsuit/Miki_A_Swimsuit_Smile
