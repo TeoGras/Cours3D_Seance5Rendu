@@ -89,6 +89,7 @@ public class ButtonManager : MonoBehaviour
         {
             //on ne veux changer le text de miki suivant la réponse pour la première scene :
             _textMiki.text = _listMikiText[_actualSceneNumber].mikiTextAfterAnswer2;
+            _textMiki.GetComponent<SlowRevealCharacter>().RevealCharacter();
         }
     }
     public void Button3()
@@ -120,6 +121,7 @@ public class ButtonManager : MonoBehaviour
         }
         
         _textMiki.text = _listMikiText[_actualSceneNumber].mikiTextAfterAnswer3;
+        _textMiki.GetComponent<SlowRevealCharacter>().RevealCharacter();
         //On fait "bouger" Miki
         _animationMikiComplimented.Play();
     }
@@ -131,6 +133,7 @@ public class ButtonManager : MonoBehaviour
         _textButton1.text = _listMikiText[_actualSceneNumber].answer1;
         _textButton2.text = _listMikiText[_actualSceneNumber].answer2;
         _textButton3.text = _listMikiText[_actualSceneNumber].answer3;
+        _textMiki.GetComponent<SlowRevealCharacter>().RevealCharacter();
         _background.sprite = Resources.Load<Sprite>($"Background/Scene{_actualSceneNumber}");
         _miki.sprite = Resources.Load<Sprite>(_listMikiText[_actualSceneNumber].mikiSpritPath);
     }
